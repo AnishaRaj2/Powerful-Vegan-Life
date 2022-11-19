@@ -1,0 +1,46 @@
+*{
+    font-family: Inconsolata;
+}
+  
+h1{
+    font-family: Purisa ;
+}
+  
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  
+.header img {
+    width: 15%;
+}
+  
+.navigationbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.6rem;
+}
+  
+.navigationbar a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+  
+.navigationbar li {
+    padding: 0.5rem;
+}
+  
+.search-bar{
+    font-size: 20px;
+}
+
+.veganfood-image{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 30px;
+}
